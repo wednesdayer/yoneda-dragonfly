@@ -1,0 +1,1340 @@
+{
+  "episodes": 10,
+  "maxTime": 180,
+  "baseSeed": 100,
+  "results": {
+    "sem-memoria": {
+      "runs": [
+        {
+          "scenario": "sem-memoria",
+          "seed": 100,
+          "time": 113.6,
+          "escaped": true,
+          "escapeTime": 112.6,
+          "escapeRoute": "oculo-teto",
+          "attempts": 36,
+          "failedAttempts": 35,
+          "collisions": 26,
+          "contactsByKind": {
+            "vidro": 27
+          },
+          "glassContacts": 27,
+          "decisions": 511,
+          "pathLength": 194.31672837962958,
+          "coverage": 0.024479166666666666,
+          "poseError": 0.297988408739171,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 1
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 101,
+          "time": 36.75,
+          "escaped": true,
+          "escapeTime": 35.75,
+          "escapeRoute": "oculo-teto",
+          "attempts": 6,
+          "failedAttempts": 5,
+          "collisions": 0,
+          "contactsByKind": {},
+          "glassContacts": 0,
+          "decisions": 184,
+          "pathLength": 69.85235046615175,
+          "coverage": 0.010546875,
+          "poseError": 0.10912270451817858,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 2
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 102,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 83,
+          "failedAttempts": 82,
+          "collisions": 78,
+          "contactsByKind": {
+            "vidro": 79
+          },
+          "glassContacts": 79,
+          "decisions": 727,
+          "pathLength": 252.00424530453608,
+          "coverage": 0.023177083333333334,
+          "poseError": 0.32299168325669453,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 3
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 103,
+          "time": 23.05,
+          "escaped": true,
+          "escapeTime": 22.05,
+          "escapeRoute": "oculo-teto",
+          "attempts": 3,
+          "failedAttempts": 2,
+          "collisions": 0,
+          "contactsByKind": {},
+          "glassContacts": 0,
+          "decisions": 116,
+          "pathLength": 42.862728234437604,
+          "coverage": 0.0069010416666666664,
+          "poseError": 0.15530342168410902,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 4
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 104,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 55,
+          "failedAttempts": 55,
+          "collisions": 44,
+          "contactsByKind": {
+            "vidro": 47
+          },
+          "glassContacts": 47,
+          "decisions": 803,
+          "pathLength": 299.65079515497837,
+          "coverage": 0.03763020833333333,
+          "poseError": 0.5569213686452019,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 5
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 105,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 55,
+          "failedAttempts": 54,
+          "collisions": 43,
+          "contactsByKind": {
+            "vidro": 47
+          },
+          "glassContacts": 47,
+          "decisions": 806,
+          "pathLength": 303.55251073675987,
+          "coverage": 0.036328125,
+          "poseError": 0.33618756473136663,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 6
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 106,
+          "time": 110.46666666666667,
+          "escaped": true,
+          "escapeTime": 109.46666666666667,
+          "escapeRoute": "oculo-teto",
+          "attempts": 65,
+          "failedAttempts": 64,
+          "collisions": 61,
+          "contactsByKind": {
+            "vidro": 63
+          },
+          "glassContacts": 63,
+          "decisions": 417,
+          "pathLength": 147.7130829303079,
+          "coverage": 0.008463541666666666,
+          "poseError": 0.30593597331230515,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 7
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 107,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 81,
+          "failedAttempts": 80,
+          "collisions": 74,
+          "contactsByKind": {
+            "vidro": 76
+          },
+          "glassContacts": 76,
+          "decisions": 735,
+          "pathLength": 265.23944495660857,
+          "coverage": 0.0234375,
+          "poseError": 0.28426366068934444,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 8
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 108,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 108,
+          "failedAttempts": 108,
+          "collisions": 104,
+          "contactsByKind": {
+            "vidro": 109
+          },
+          "glassContacts": 109,
+          "decisions": 671,
+          "pathLength": 244.53980262204945,
+          "coverage": 0.0125,
+          "poseError": 0.45879106173727957,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 9
+        },
+        {
+          "scenario": "sem-memoria",
+          "seed": 109,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 77,
+          "failedAttempts": 77,
+          "collisions": 72,
+          "contactsByKind": {
+            "vidro": 77
+          },
+          "glassContacts": 77,
+          "decisions": 742,
+          "pathLength": 248.94737360232037,
+          "coverage": 0.021223958333333334,
+          "poseError": 0.40073367631677537,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 10
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "successRate": 0.4,
+        "meanTime": 135.98666666666668,
+        "sdTime": 63.15962229849771,
+        "meanTimeEscaped": 69.96666666666667,
+        "meanAttempts": 56.9,
+        "meanFailed": 56.2,
+        "meanCollisions": 50.2,
+        "meanGlass": 52.5,
+        "meanCoverage": 0.02046875,
+        "meanPath": 206.86790623877795,
+        "meanPoseError": 0.32282395236304257,
+        "firstHalfTime": 106.08000000000001,
+        "secondHalfTime": 165.89333333333335,
+        "routes": {
+          "oculo-teto": 4
+        }
+      },
+      "finalWeights": {
+        "livre": 1,
+        "luz": 1.6,
+        "profundidade": 1.2,
+        "novidade": 1,
+        "fracasso": -2,
+        "corrente": 0,
+        "persistencia": 0.7,
+        "vertical": -0.6
+      }
+    },
+    "com-memoria": {
+      "runs": [
+        {
+          "scenario": "com-memoria",
+          "seed": 100,
+          "time": 53.65,
+          "escaped": true,
+          "escapeTime": 52.65,
+          "escapeRoute": "oculo-teto",
+          "attempts": 15,
+          "failedAttempts": 14,
+          "collisions": 11,
+          "contactsByKind": {
+            "vidro": 12
+          },
+          "glassContacts": 12,
+          "decisions": 244,
+          "pathLength": 89.05616812156175,
+          "coverage": 0.010546875,
+          "poseError": 0.3433738124433598,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 1
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 101,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 44,
+          "failedAttempts": 44,
+          "collisions": 38,
+          "contactsByKind": {
+            "vidro": 39
+          },
+          "glassContacts": 39,
+          "decisions": 815,
+          "pathLength": 271.1763412576213,
+          "coverage": 0.0328125,
+          "poseError": 0.8248829818376273,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 2
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 102,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 59,
+          "failedAttempts": 58,
+          "collisions": 50,
+          "contactsByKind": {
+            "vidro": 54
+          },
+          "glassContacts": 54,
+          "decisions": 786,
+          "pathLength": 273.9664522138949,
+          "coverage": 0.033463541666666666,
+          "poseError": 0.36910273398033816,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 3
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 103,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 52,
+          "failedAttempts": 51,
+          "collisions": 42,
+          "contactsByKind": {
+            "vidro": 44
+          },
+          "glassContacts": 44,
+          "decisions": 811,
+          "pathLength": 281.63841479856507,
+          "coverage": 0.03359375,
+          "poseError": 1.1463658920244035,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 4
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 104,
+          "time": 101.5,
+          "escaped": true,
+          "escapeTime": 100.5,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 25,
+          "failedAttempts": 24,
+          "collisions": 17,
+          "contactsByKind": {
+            "vidro": 17
+          },
+          "glassContacts": 17,
+          "decisions": 470,
+          "pathLength": 179.01415278671934,
+          "coverage": 0.026302083333333334,
+          "poseError": 0.45134077625105096,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 5
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 105,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 48,
+          "failedAttempts": 48,
+          "collisions": 40,
+          "contactsByKind": {
+            "vidro": 41
+          },
+          "glassContacts": 41,
+          "decisions": 811,
+          "pathLength": 284.52801383482813,
+          "coverage": 0.036328125,
+          "poseError": 0.40393402498760145,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 6
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 106,
+          "time": 94.46666666666667,
+          "escaped": true,
+          "escapeTime": 93.46666666666667,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 16,
+          "failedAttempts": 15,
+          "collisions": 6,
+          "contactsByKind": {
+            "vidro": 6
+          },
+          "glassContacts": 6,
+          "decisions": 459,
+          "pathLength": 165.95844212470726,
+          "coverage": 0.023567708333333333,
+          "poseError": 0.20062601291027576,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 7
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 107,
+          "time": 99.78333333333333,
+          "escaped": true,
+          "escapeTime": 98.78333333333333,
+          "escapeRoute": "oculo-teto",
+          "attempts": 21,
+          "failedAttempts": 20,
+          "collisions": 12,
+          "contactsByKind": {
+            "vidro": 12
+          },
+          "glassContacts": 12,
+          "decisions": 472,
+          "pathLength": 179.7931185317384,
+          "coverage": 0.026692708333333332,
+          "poseError": 0.3312696239285446,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 8
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 108,
+          "time": 54.983333333333334,
+          "escaped": true,
+          "escapeTime": 53.983333333333334,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 13,
+          "failedAttempts": 12,
+          "collisions": 8,
+          "contactsByKind": {
+            "vidro": 8
+          },
+          "glassContacts": 8,
+          "decisions": 257,
+          "pathLength": 90.98479337304568,
+          "coverage": 0.013671875,
+          "poseError": 0.17894788307152357,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 9
+        },
+        {
+          "scenario": "com-memoria",
+          "seed": 109,
+          "time": 147.31666666666666,
+          "escaped": true,
+          "escapeTime": 146.31666666666666,
+          "escapeRoute": "oculo-teto",
+          "attempts": 44,
+          "failedAttempts": 43,
+          "collisions": 36,
+          "contactsByKind": {
+            "vidro": 39
+          },
+          "glassContacts": 39,
+          "decisions": 658,
+          "pathLength": 219.78968116014133,
+          "coverage": 0.026041666666666668,
+          "poseError": 0.3192601652103486,
+          "weights": {
+            "livre": 1,
+            "luz": 1.6,
+            "profundidade": 1.2,
+            "novidade": 1,
+            "fracasso": -2,
+            "corrente": 0,
+            "persistencia": 0.7,
+            "vertical": -0.6
+          },
+          "episode": 10
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "successRate": 0.6,
+        "meanTime": 126.57000000000001,
+        "sdTime": 52.79894300756455,
+        "meanTimeEscaped": 90.95,
+        "meanAttempts": 33.7,
+        "meanFailed": 32.9,
+        "meanCollisions": 26,
+        "meanGlass": 27.2,
+        "meanCoverage": 0.02630208333333333,
+        "meanPath": 203.5905578202823,
+        "meanPoseError": 0.4569103906645073,
+        "firstHalfTime": 138.63,
+        "secondHalfTime": 114.50999999999999,
+        "routes": {
+          "oculo-teto": 3,
+          "janela-norte-aberta": 3
+        }
+      },
+      "finalWeights": {
+        "livre": 1,
+        "luz": 1.6,
+        "profundidade": 1.2,
+        "novidade": 1,
+        "fracasso": -2,
+        "corrente": 0,
+        "persistencia": 0.7,
+        "vertical": -0.6
+      }
+    },
+    "com-aprendizado": {
+      "runs": [
+        {
+          "scenario": "com-aprendizado",
+          "seed": 100,
+          "time": 52.81666666666666,
+          "escaped": true,
+          "escapeTime": 51.81666666666666,
+          "escapeRoute": "oculo-teto",
+          "attempts": 11,
+          "failedAttempts": 10,
+          "collisions": 6,
+          "contactsByKind": {
+            "vidro": 6
+          },
+          "glassContacts": 6,
+          "decisions": 251,
+          "pathLength": 99.61298996119987,
+          "coverage": 0.014973958333333334,
+          "poseError": 0.07894176019629964,
+          "weights": {
+            "livre": 1.0322740367581544,
+            "luz": 1.8700953986338185,
+            "profundidade": 1.60405790851834,
+            "novidade": 0.9913994611037075,
+            "fracasso": -1.767891440149955,
+            "corrente": 0.3259414837958881,
+            "persistencia": 1.1147227936104325,
+            "vertical": -0.6763587614041748
+          },
+          "episode": 1
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 101,
+          "time": 84.83333333333333,
+          "escaped": true,
+          "escapeTime": 83.83333333333333,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 22,
+          "failedAttempts": 21,
+          "collisions": 15,
+          "contactsByKind": {
+            "vidro": 17
+          },
+          "glassContacts": 17,
+          "decisions": 389,
+          "pathLength": 149.19304719588354,
+          "coverage": 0.0203125,
+          "poseError": 0.3883413687402336,
+          "weights": {
+            "livre": 1.4866239594681303,
+            "luz": 1.833323659158522,
+            "profundidade": 1.3380210317509909,
+            "novidade": 0.9242773619625656,
+            "fracasso": -2.564075679288977,
+            "corrente": 0.3503525550151595,
+            "persistencia": 1.4733829891556953,
+            "vertical": -0.8368821421887986
+          },
+          "episode": 2
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 102,
+          "time": 143.88333333333333,
+          "escaped": true,
+          "escapeTime": 142.88333333333333,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 38,
+          "failedAttempts": 37,
+          "collisions": 30,
+          "contactsByKind": {
+            "vidro": 33
+          },
+          "glassContacts": 33,
+          "decisions": 653,
+          "pathLength": 219.49459758360567,
+          "coverage": 0.030598958333333332,
+          "poseError": 0.4647335010852645,
+          "weights": {
+            "livre": 1.2701101278305735,
+            "luz": 1.457298563315057,
+            "profundidade": 0.8382152774880645,
+            "novidade": 0.9818802558573501,
+            "fracasso": -2.7708058276468464,
+            "corrente": 0.876334054491351,
+            "persistencia": 0.8737559129165455,
+            "vertical": -0.8053140573665996
+          },
+          "episode": 3
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 103,
+          "time": 47.53333333333333,
+          "escaped": true,
+          "escapeTime": 46.53333333333333,
+          "escapeRoute": "oculo-teto",
+          "attempts": 11,
+          "failedAttempts": 10,
+          "collisions": 5,
+          "contactsByKind": {
+            "vidro": 6
+          },
+          "glassContacts": 6,
+          "decisions": 226,
+          "pathLength": 83.8641497152072,
+          "coverage": 0.01328125,
+          "poseError": 0.1823614447136975,
+          "weights": {
+            "livre": 1.8142115828072687,
+            "luz": 1.8905407259395557,
+            "profundidade": 1.3929826546393809,
+            "novidade": 0.8663024504960184,
+            "fracasso": -2.582620682400358,
+            "corrente": 0.8907386059979837,
+            "persistencia": 0.9412566327212022,
+            "vertical": -0.7019492373970525
+          },
+          "episode": 4
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 104,
+          "time": 68.61666666666666,
+          "escaped": true,
+          "escapeTime": 67.61666666666666,
+          "escapeRoute": "oculo-teto",
+          "attempts": 14,
+          "failedAttempts": 13,
+          "collisions": 7,
+          "contactsByKind": {
+            "vidro": 8
+          },
+          "glassContacts": 8,
+          "decisions": 328,
+          "pathLength": 129.10492951861923,
+          "coverage": 0.020052083333333335,
+          "poseError": 0.4455753122408704,
+          "weights": {
+            "livre": 1.5934391200107243,
+            "luz": 1.8191017691246703,
+            "profundidade": 1.5237564568293753,
+            "novidade": 0.8917799221147716,
+            "fracasso": -2.4487206790511693,
+            "corrente": 0.6704833361843107,
+            "persistencia": 1.2953901609915257,
+            "vertical": -0.9293156038499364
+          },
+          "episode": 5
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 105,
+          "time": 89.26666666666667,
+          "escaped": true,
+          "escapeTime": 88.26666666666667,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 27,
+          "failedAttempts": 26,
+          "collisions": 21,
+          "contactsByKind": {
+            "vidro": 22
+          },
+          "glassContacts": 22,
+          "decisions": 400,
+          "pathLength": 141.83046229774098,
+          "coverage": 0.019401041666666667,
+          "poseError": 0.4091240704390249,
+          "weights": {
+            "livre": 1.5434684936360528,
+            "luz": 1.6975619580483006,
+            "profundidade": 1.6237275137967488,
+            "novidade": 1.0016855317895783,
+            "fracasso": -2.0892159479027077,
+            "corrente": 0.7442628004605107,
+            "persistencia": 1.677270774009646,
+            "vertical": -1.20146696403738
+          },
+          "episode": 6
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 106,
+          "time": 37.3,
+          "escaped": true,
+          "escapeTime": 36.3,
+          "escapeRoute": "oculo-teto",
+          "attempts": 11,
+          "failedAttempts": 10,
+          "collisions": 8,
+          "contactsByKind": {
+            "vidro": 8
+          },
+          "glassContacts": 8,
+          "decisions": 169,
+          "pathLength": 60.49723507540714,
+          "coverage": 0.008984375,
+          "poseError": 0.26775307791076186,
+          "weights": {
+            "livre": 1.5866716444362143,
+            "luz": 1.762825868761184,
+            "profundidade": 1.597090427357345,
+            "novidade": 0.9429740686078802,
+            "fracasso": -2.293165557041173,
+            "corrente": 0.9012440087444319,
+            "persistencia": 1.3788350614894946,
+            "vertical": -0.7304436245503769
+          },
+          "episode": 7
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 107,
+          "time": 44.28333333333333,
+          "escaped": true,
+          "escapeTime": 43.28333333333333,
+          "escapeRoute": "oculo-teto",
+          "attempts": 11,
+          "failedAttempts": 10,
+          "collisions": 5,
+          "contactsByKind": {
+            "vidro": 6
+          },
+          "glassContacts": 6,
+          "decisions": 211,
+          "pathLength": 85.59101736407193,
+          "coverage": 0.011197916666666667,
+          "poseError": 0.1502060794150266,
+          "weights": {
+            "livre": 1.7342809404102422,
+            "luz": 1.985792262043259,
+            "profundidade": 2.195085182476138,
+            "novidade": 0.9301602692979184,
+            "fracasso": -1.8017201457211323,
+            "corrente": 1.0803619178856763,
+            "persistencia": 1.401466526949946,
+            "vertical": -0.7729236436294897
+          },
+          "episode": 8
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 108,
+          "time": 58.833333333333336,
+          "escaped": true,
+          "escapeTime": 57.833333333333336,
+          "escapeRoute": "oculo-teto",
+          "attempts": 16,
+          "failedAttempts": 15,
+          "collisions": 12,
+          "contactsByKind": {
+            "vidro": 12
+          },
+          "glassContacts": 12,
+          "decisions": 269,
+          "pathLength": 100.19230824504169,
+          "coverage": 0.013932291666666667,
+          "poseError": 0.7242243834200102,
+          "weights": {
+            "livre": 1.7983706764381875,
+            "luz": 2.5917293601680673,
+            "profundidade": 2.132758615315842,
+            "novidade": 0.8805578058713485,
+            "fracasso": -1.9895878564458838,
+            "corrente": 0.6829750341379708,
+            "persistencia": 1.7671603468077541,
+            "vertical": -0.45293587286761733
+          },
+          "episode": 9
+        },
+        {
+          "scenario": "com-aprendizado",
+          "seed": 109,
+          "time": 115.88333333333333,
+          "escaped": true,
+          "escapeTime": 114.88333333333333,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 39,
+          "failedAttempts": 38,
+          "collisions": 30,
+          "contactsByKind": {
+            "vidro": 30
+          },
+          "glassContacts": 30,
+          "decisions": 510,
+          "pathLength": 188.01020518217882,
+          "coverage": 0.023567708333333333,
+          "poseError": 0.27716812693390586,
+          "weights": {
+            "livre": 1.6585113366521476,
+            "luz": 2.3599048905635662,
+            "profundidade": 1.6657561773038534,
+            "novidade": 0.9119282632313563,
+            "fracasso": -1.0422886179509752,
+            "corrente": 0.8766094615632853,
+            "persistencia": 1.5963442295602077,
+            "vertical": -0.48828899098073275
+          },
+          "episode": 10
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "successRate": 1,
+        "meanTime": 73.32499999999999,
+        "sdTime": 34.35996742011132,
+        "meanTimeEscaped": 73.32499999999999,
+        "meanAttempts": 20,
+        "meanFailed": 19,
+        "meanCollisions": 13.9,
+        "meanGlass": 14.8,
+        "meanCoverage": 0.017630208333333335,
+        "meanPath": 125.73909421389563,
+        "meanPoseError": 0.3388429125095095,
+        "firstHalfTime": 78.53666666666666,
+        "secondHalfTime": 68.11333333333333,
+        "routes": {
+          "oculo-teto": 6,
+          "janela-norte-aberta": 4
+        }
+      },
+      "finalWeights": {
+        "livre": 1.6585113366521476,
+        "luz": 2.3599048905635662,
+        "profundidade": 1.6657561773038534,
+        "novidade": 0.9119282632313563,
+        "fracasso": -1.0422886179509752,
+        "corrente": 0.8766094615632853,
+        "persistencia": 1.5963442295602077,
+        "vertical": -0.48828899098073275
+      }
+    },
+    "percepcao-limitada": {
+      "runs": [
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 100,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 33,
+          "failedAttempts": 32,
+          "collisions": 9,
+          "contactsByKind": {
+            "vidro": 9
+          },
+          "glassContacts": 9,
+          "decisions": 880,
+          "pathLength": 331.1862615937349,
+          "coverage": 0.050520833333333334,
+          "poseError": 1.5177476567096815,
+          "weights": {
+            "livre": 1.334303046366257,
+            "luz": 1.8950294623176251,
+            "profundidade": 1.686677827898802,
+            "novidade": 0.8853328407150279,
+            "fracasso": -0.16129947313503357,
+            "corrente": 0.1062856596458037,
+            "persistencia": 1.1248786481621715,
+            "vertical": -1.051302045147438
+          },
+          "episode": 1
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 101,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 29,
+          "failedAttempts": 28,
+          "collisions": 2,
+          "contactsByKind": {
+            "vidro": 2
+          },
+          "glassContacts": 2,
+          "decisions": 896,
+          "pathLength": 326.4073086946049,
+          "coverage": 0.049479166666666664,
+          "poseError": 0.10427294412880649,
+          "weights": {
+            "livre": 1.5363441950761434,
+            "luz": 1.9973110979401316,
+            "profundidade": 1.818428460362033,
+            "novidade": 0.8867879122293186,
+            "fracasso": -0.682808789631297,
+            "corrente": 0.1626848355353689,
+            "persistencia": 1.2185342546941789,
+            "vertical": -0.6854790420670519
+          },
+          "episode": 2
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 102,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 33,
+          "failedAttempts": 32,
+          "collisions": 8,
+          "contactsByKind": {
+            "vidro": 8
+          },
+          "glassContacts": 8,
+          "decisions": 883,
+          "pathLength": 349.33219538140725,
+          "coverage": 0.0484375,
+          "poseError": 0.3446644160764387,
+          "weights": {
+            "livre": 1.6450994241051067,
+            "luz": 2.1537959658739165,
+            "profundidade": 1.9653920179911517,
+            "novidade": 0.8392224727783021,
+            "fracasso": 0.6389543369553934,
+            "corrente": 0.1405415769484976,
+            "persistencia": 0.16029641022415306,
+            "vertical": -0.5892672798370517
+          },
+          "episode": 3
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 103,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 30,
+          "failedAttempts": 29,
+          "collisions": 0,
+          "contactsByKind": {},
+          "glassContacts": 0,
+          "decisions": 900,
+          "pathLength": 329.7969696327704,
+          "coverage": 0.04778645833333333,
+          "poseError": 2.403203397063085,
+          "weights": {
+            "livre": 1.8781285488271653,
+            "luz": 2.203774852341993,
+            "profundidade": 2.2634651942877926,
+            "novidade": 0.7356267307088085,
+            "fracasso": 1.9004532290536442,
+            "corrente": 0.5156088794514433,
+            "persistencia": -0.35279550079008665,
+            "vertical": -0.6872119424050648
+          },
+          "episode": 4
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 104,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 28,
+          "failedAttempts": 27,
+          "collisions": 2,
+          "contactsByKind": {
+            "vidro": 2
+          },
+          "glassContacts": 2,
+          "decisions": 896,
+          "pathLength": 307.06423283592693,
+          "coverage": 0.04544270833333333,
+          "poseError": 0.974047126681221,
+          "weights": {
+            "livre": 1.5740070730698854,
+            "luz": 1.842614728974295,
+            "profundidade": 1.7214894484016252,
+            "novidade": 0.82628376636685,
+            "fracasso": -0.7976025667935054,
+            "corrente": 0.21461614826697292,
+            "persistencia": 1.1926129716369396,
+            "vertical": -0.7192229245742636
+          },
+          "episode": 5
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 105,
+          "time": 80.55,
+          "escaped": true,
+          "escapeTime": 79.55,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 18,
+          "failedAttempts": 17,
+          "collisions": 3,
+          "contactsByKind": {
+            "vidro": 3
+          },
+          "glassContacts": 3,
+          "decisions": 396,
+          "pathLength": 147.54733247078224,
+          "coverage": 0.022265625,
+          "poseError": 0.7929990265447188,
+          "weights": {
+            "livre": 1.3740527617512142,
+            "luz": 1.8274521314113115,
+            "profundidade": 1.6200709049708504,
+            "novidade": 0.926267278762423,
+            "fracasso": -1.4405783323330021,
+            "corrente": 0.04414880529842159,
+            "persistencia": 1.5682007814170091,
+            "vertical": -0.881312926255657
+          },
+          "episode": 6
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 106,
+          "time": 90.33333333333333,
+          "escaped": true,
+          "escapeTime": 89.33333333333333,
+          "escapeRoute": "janela-norte-aberta",
+          "attempts": 19,
+          "failedAttempts": 18,
+          "collisions": 0,
+          "contactsByKind": {},
+          "glassContacts": 0,
+          "decisions": 452,
+          "pathLength": 170.82039670195624,
+          "coverage": 0.029296875,
+          "poseError": 1.6146138174712592,
+          "weights": {
+            "livre": 1.168080006415765,
+            "luz": 1.9677854757523574,
+            "profundidade": 1.6215687330149644,
+            "novidade": 0.8801081454223607,
+            "fracasso": -1.4403685733714615,
+            "corrente": 0.22898453992490295,
+            "persistencia": 1.5091989964568897,
+            "vertical": -0.8766855455337531
+          },
+          "episode": 7
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 107,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 35,
+          "failedAttempts": 34,
+          "collisions": 7,
+          "contactsByKind": {
+            "vidro": 7
+          },
+          "glassContacts": 7,
+          "decisions": 886,
+          "pathLength": 330.8824950861292,
+          "coverage": 0.05286458333333333,
+          "poseError": 1.7190851101440618,
+          "weights": {
+            "livre": 1.5432799687841174,
+            "luz": 2.1665317449883457,
+            "profundidade": 1.786839328567746,
+            "novidade": 0.8753527288034458,
+            "fracasso": -0.6324732930568633,
+            "corrente": 0.18949329257555492,
+            "persistencia": 1.5029871776046244,
+            "vertical": -0.7481944387867251
+          },
+          "episode": 8
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 108,
+          "time": 161.88333333333333,
+          "escaped": true,
+          "escapeTime": 160.88333333333333,
+          "escapeRoute": "oculo-teto",
+          "attempts": 32,
+          "failedAttempts": 31,
+          "collisions": 6,
+          "contactsByKind": {
+            "vidro": 6
+          },
+          "glassContacts": 6,
+          "decisions": 795,
+          "pathLength": 301.95690173793054,
+          "coverage": 0.046484375,
+          "poseError": 1.8200383865685812,
+          "weights": {
+            "livre": 1.1714970059494574,
+            "luz": 1.8441638749648395,
+            "profundidade": 1.453686762628575,
+            "novidade": 0.8215082676053331,
+            "fracasso": -0.36487622481559034,
+            "corrente": 0.2554623565817789,
+            "persistencia": 1.5002784718121536,
+            "vertical": -0.7501647031958195
+          },
+          "episode": 9
+        },
+        {
+          "scenario": "percepcao-limitada",
+          "seed": 109,
+          "time": 180,
+          "escaped": false,
+          "escapeTime": null,
+          "escapeRoute": null,
+          "attempts": 32,
+          "failedAttempts": 31,
+          "collisions": 7,
+          "contactsByKind": {
+            "vidro": 7
+          },
+          "glassContacts": 7,
+          "decisions": 883,
+          "pathLength": 339.1591844911722,
+          "coverage": 0.053515625,
+          "poseError": 1.3833188502381204,
+          "weights": {
+            "livre": 1.0511574057619786,
+            "luz": 1.906276380360481,
+            "profundidade": 1.858023451342119,
+            "novidade": 0.8109484377844719,
+            "fracasso": 0.17213432227881664,
+            "corrente": 0.17795458635206388,
+            "persistencia": 1.4727817487178294,
+            "vertical": -0.8885154121140639
+          },
+          "episode": 10
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "successRate": 0.3,
+        "meanTime": 158.97666666666663,
+        "sdTime": 39.79990011774799,
+        "meanTimeEscaped": 109.92222222222222,
+        "meanAttempts": 28.9,
+        "meanFailed": 27.9,
+        "meanCollisions": 4.4,
+        "meanGlass": 4.4,
+        "meanCoverage": 0.044609375,
+        "meanPath": 293.4153278626415,
+        "meanPoseError": 1.2673990731625975,
+        "firstHalfTime": 180,
+        "secondHalfTime": 137.95333333333332,
+        "routes": {
+          "janela-norte-aberta": 2,
+          "oculo-teto": 1
+        }
+      },
+      "finalWeights": {
+        "livre": 1.0511574057619786,
+        "luz": 1.906276380360481,
+        "profundidade": 1.858023451342119,
+        "novidade": 0.8109484377844719,
+        "fracasso": 0.17213432227881664,
+        "corrente": 0.17795458635206388,
+        "persistencia": 1.4727817487178294,
+        "vertical": -0.8885154121140639
+      }
+    }
+  },
+  "scenarios": [
+    "sem-memoria",
+    "com-memoria",
+    "com-aprendizado",
+    "percepcao-limitada"
+  ]
+}
