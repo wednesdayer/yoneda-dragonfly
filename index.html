@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Libélula no Templo</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ccircle cx=%228%22 cy=%228%22 r=%225%22 fill=%22%231f8f8a%22/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/src/ui/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <strong>Libélula no Templo</strong>
+        <span class="muted">uma mente construída num mundo simulado</span>
+      </div>
+      <div class="controls">
+        <label>Cenário
+          <select id="scenario"></select>
+        </label>
+        <label>Semente <input id="seed" type="number" value="1" min="1" step="1" /></label>
+        <label>Velocidade
+          <select id="speed">
+            <option value="0.5">0,5×</option>
+            <option value="1" selected>1×</option>
+            <option value="2">2×</option>
+            <option value="4">4×</option>
+            <option value="8">8×</option>
+            <option value="16">16×</option>
+          </select>
+        </label>
+        <button id="btn-play" class="primary">Pausar</button>
+        <button id="btn-reset" title="Reinicia com pesos inatos">Reiniciar</button>
+        <button id="btn-next" title="Novo episódio; nos cenários com aprendizado herda os pesos aprendidos">Próximo episódio</button>
+        <label class="check"><input id="auto-next" type="checkbox" /> encadear</label>
+        <button id="btn-compare" class="accent">Comparar cenários</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="viewport">
+        <div id="scene"></div>
+        <div class="hud">
+          <div id="hud-scenario" class="hud-title"></div>
+          <div id="hud-desc" class="muted"></div>
+          <div id="hud-status" class="hud-status"></div>
+        </div>
+        <div class="toggles">
+          <label class="check"><input id="t-rays" type="checkbox" checked /> raios visuais</label>
+          <label class="check"><input id="t-mind" type="checkbox" checked /> mapa mental 3D</label>
+          <label class="check"><input id="t-trail" type="checkbox" checked /> trajetória</label>
+          <label class="check"><input id="t-wind" type="checkbox" /> corrente de ar</label>
+          <label class="check"><input id="t-roof" type="checkbox" /> teto</label>
+          <label class="check"><input id="t-follow" type="checkbox" /> seguir</label>
+        </div>
+        <div id="banner" class="banner hidden"></div>
+      </section>
+
+      <aside class="panel">
+        <section class="card">
+          <h2>Estado interno</h2>
+          <div class="mode-row"><span id="mode" class="mode">—</span><span id="clock" class="mono"></span></div>
+          <div id="gauges" class="gauges"></div>
+        </section>
+
+        <section class="card">
+          <h2>Mapa espacial (memória da libélula)</h2>
+          <canvas id="map" width="400" height="400"></canvas>
+          <div class="legend" id="map-legend"></div>
+        </section>
+
+        <div class="two-col">
+          <section class="card">
+            <h2>Alternativas avaliadas</h2>
+            <canvas id="polar" width="220" height="220"></canvas>
+            <div id="alts" class="alts mono"></div>
+          </section>
+          <section class="card">
+            <h2>Campo visual</h2>
+            <canvas id="retina" width="220" height="130"></canvas>
+            <p class="muted small">Azimute × elevação no referencial do corpo. Brilho = luminância; anel = raio sem retorno; × = sensor falhou.</p>
+            <div id="senses" class="kv mono"></div>
+          </section>
+        </div>
+
+        <section class="card">
+          <h2>Pesos das preferências <span class="muted small">(traço = valor inato)</span></h2>
+          <div id="weights" class="weights"></div>
+        </section>
+
+        <section class="card">
+          <h2>Pose: verdade física × estimativa interna</h2>
+          <div id="pose" class="kv mono"></div>
+        </section>
+
+        <section class="card">
+          <h2>Métricas do episódio</h2>
+          <div id="metrics" class="kv mono"></div>
+        </section>
+
+        <section class="card">
+          <h2>Decisões e eventos</h2>
+          <ol id="log" class="log"></ol>
+        </section>
+      </aside>
+    </main>
+
+    <div id="compare" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="compare-title">
+      <div class="modal-box">
+        <div class="modal-head">
+          <h2 id="compare-title">Comparação entre cenários</h2>
+          <button id="compare-close" aria-label="Fechar">✕</button>
+        </div>
+        <div class="compare-controls">
+          <label>Episódios por cenário <input id="cmp-episodes" type="number" value="8" min="2" max="40" /></label>
+          <label>Tempo máximo (s) <input id="cmp-maxtime" type="number" value="180" min="30" max="600" step="10" /></label>
+          <label>Semente base <input id="cmp-seed" type="number" value="100" min="1" /></label>
+          <button id="cmp-run" class="primary">Executar</button>
+          <button id="cmp-json" disabled>Baixar JSON</button>
+          <button id="cmp-md" disabled>Baixar relatório .md</button>
+        </div>
+        <div id="cmp-progress" class="progress hidden"><div></div><span></span></div>
+        <div id="cmp-output"></div>
+      </div>
+    </div>
+    <div id="tooltip" class="tooltip hidden"></div>
+
+    <script type="module" src="/src/ui/main.js"></script>
+  </body>
+</html>

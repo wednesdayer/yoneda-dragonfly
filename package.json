@@ -1,0 +1,22 @@
+{
+  "name": "yoneda-dragonfly",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Uma mente construída num mundo simulado: uma libélula tentando sair de um templo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "experiment": "node scripts/run-experiments.js"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.5",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
